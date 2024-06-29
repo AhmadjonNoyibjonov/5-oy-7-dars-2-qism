@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: aliceblue;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.container .title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: brown;
+}
+
+.title i {
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.form input {
+  overflow: none;
+  outline: none;
+  width: 90%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form button {
+  font-weight: 700;
+  border: none;
+  background-color: aqua;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards .card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+}
+
+.card .left,
+.right {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.left input {
+  cursor: pointer;
+}
+
+.right button:first-child {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right button:last-child {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   margin-top: 100px;
@@ -92,6 +92,18 @@ body {
   align-items: center;
   align-items: center;
   gap: 15px;
+}
+
+.card .left .ul {
+  display: flex;
+  gap: 25px;
+}
+
+.card .left .ul ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: chocolate;
 }
 
 .left input {
